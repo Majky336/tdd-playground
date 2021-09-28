@@ -1,0 +1,7 @@
+{
+  "name": "tdd-playground",
+  "packageManager": "yarn@3.0.2",
+  "workspaces": [
+    "packages/*"
+  ]
+}
