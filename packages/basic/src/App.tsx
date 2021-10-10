@@ -15,7 +15,7 @@ function App() {
     <div>
       <Header />
       <main>
-        <List items={items as TListItem[]} />
+        <List items={items as TListItem[]} title="List of my TODOs" />
       </main>
       <Footer />
     </div>

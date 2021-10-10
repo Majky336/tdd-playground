@@ -11,12 +11,18 @@ export const List: FC<ListProps> = ({
   items,
   title = "Default list title",
 }) => {
+  const renderItems = (listItems: TListItem[]) => {
+    if (listItems.length === 0) {
+      return <div id="empty-list-message">The list is empty</div>;
+    }
+
+    return listItems.map((item) => <ListItem key={item.id} item={item} />);
+  };
+
   return (
-    <div>
-      <h3>{title}</h3>
-      {items.map((item) => (
-        <ListItem item={item} />
-      ))}
+    <div id="list">
+      <h3 id="list-title">{title}</h3>
+      <div id="list-items">{renderItems(items)}</div>
     </div>
   );
 };
