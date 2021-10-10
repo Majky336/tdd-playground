@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Water the plants",
+    "status": "todo"
+  },
+  { "id": 2, "name": "Update README documentation", "status": "done" },
+  {
+    "id": 3,
+    "name": "Make list of fake TODOs",
+    "status": "doing"
+  },
+  {
+    "id": 4,
+    "name": "Commit new stuff to git",
+    "status": "todo"
+  },
+  {
+    "id": 5,
+    "name": "Setup tests",
+    "status": "todo"
+  }
+]
